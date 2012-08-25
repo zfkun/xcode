@@ -31,11 +31,13 @@
 	<string>CE787086-C8B7-432D-8AEB-BAE47874A598</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TableView: cellForRowAtIndexPath: Method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TableView cellForRowAtIndexPath Method</string>
+	<string>TableView: cellForRowAtIndexPath: Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

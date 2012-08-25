@@ -9,22 +9,17 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_queue_t &lt;#templateName#&gt; = dispatch_queue_create("&lt;#any name#&gt;", NULL);
-dispatch_async(&lt;#templateName#&gt;, ^{
-    &lt;#your code here (without UI Update)#&gt;
-    dispatch_async(dispatch_get_main_queue(), ^{
-        &lt;#you code with UI Update#&gt;
-    });
-});
-dispatch_release(&lt;#templateName#&gt;);</string>
+	<string>    dispatch_async(dispatch_get_main_queue(), ^{
+        &lt;#your code here#&gt;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>112902FA-4C9A-4934-974F-7F968A5F4829</string>
+	<string>1B268946-74B0-41AB-8923-243572E93099</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>custom dispatch queue by dispatch_queue_t</string>
+	<string>dispatch_async in main queue with block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD: dispatch_async by dispatch_queue_t</string>
+	<string>GCD: dispatch_async in main queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
