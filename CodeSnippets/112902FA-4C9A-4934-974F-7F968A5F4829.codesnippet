@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dispatch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>dispatch_queue_t &lt;#queueTplFunctionName#&gt; = dispatch_queue_create("&lt;#name#&gt;", NULL);
+    dispatch_async(&lt;#queueTplFunctionName#&gt;, ^{
+        // your code here (no UI-OP)
+        &lt;#your code here#&gt;
+        
+        // your UI-OP code here
+        dispatch_async(dispatch_get_main_queue(), ^{
+            // your UI-OP code here
+            &lt;#your UI-OP code here#&gt;
+    });
+    dispatch_release(&lt;#queueTplFunctionName#&gt;);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>112902FA-4C9A-4934-974F-7F968A5F4829</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>dispatch_queue_t with UI OP</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GCD: Dispatch Normal</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
